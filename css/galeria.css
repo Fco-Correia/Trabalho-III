@@ -10,7 +10,7 @@ body{
     flex-wrap: wrap;
     padding: 1em;
 }
-.produto{
+.product{
     cursor: pointer;
     background-color: white;
     margin: 5px;
@@ -19,7 +19,7 @@ body{
     border: solid 3px  black;
 }
 
-.produto img{
+.product img{
     border: solid 2px  rgba(146, 60, 2,0.96);
     border-radius: 5px;
 }
@@ -42,7 +42,7 @@ body{
 }
 
 @media (max-width: 508px) {
-    .produto{
+    .product{
         display: flex;
     }
     .all-description h2, .all-description p{
@@ -52,7 +52,7 @@ body{
 }
 
 @media (max-width: 300px) {
-    .produto img{
+    .product img{
         width: 90px;
         height: 90px;
     }

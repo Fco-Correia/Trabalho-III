@@ -152,3 +152,9 @@ footer{
         height: 70px;
     }
   }
+
+   @media (max-height:376px) {
+    footer{
+        height: 35px;
+    }
+  }

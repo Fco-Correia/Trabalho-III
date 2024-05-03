@@ -157,4 +157,7 @@ footer{
     footer{
         height: 35px;
     }
+    header{
+        padding: 5px 10px;
+    }
   }

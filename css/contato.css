@@ -206,3 +206,9 @@ footer{
       padding: 0px;
     }
   }
+
+  @media (max-height:376px) {
+    .container{
+      font-size: 7px;
+    }
+  }

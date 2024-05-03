@@ -1,0 +1,75 @@
+.section{
+    padding-top: 30px;
+    display: flex;
+    padding-bottom: 20px;
+}
+.section img{
+    border-radius: 20px;
+    margin-right: 20px;;
+    border: solid 5px white;
+}
+
+
+body{
+    background-image: url(../img/background.svg);
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+aside{
+    color: #ffffff;
+    background-color: rgba(0,0,0,0.6);
+    font-size: 20px;
+    margin: 0px 20px 0px 20px;
+    padding: 10px;
+    border-radius: 20px;
+}
+h2{
+    margin: 0px;
+}
+p{
+    text-align: justify
+}
+
+@media (max-width: 1205px) {
+    aside{font-size: 19px;}
+    .section img{
+        height: 380px;
+    }
+}
+@media (max-width: 1036px) {
+    aside{
+        font-size: 17px;
+    }
+}
+
+/*daqui pra cima foi puro ajustar tamanho de font,tamanho da imagem e diminui a margen direita pra ajustar*/
+
+@media (max-width: 916px) {
+    aside{
+        font-size: 16px;
+    }
+    .section img{
+        height: 330px;
+    }
+}
+
+@media (max-width: 850px) {
+    .section{
+        flex-direction: column;
+    }
+    aside{
+        font-size: 15px;
+    }
+    .section img{
+        height: 290px;
+        margin-left: 20px;
+        margin-top: 15px;
+    }
+}
+@media (max-width: 735px) {
+    .section img{
+        height: 250px;
+    }
+}
+
